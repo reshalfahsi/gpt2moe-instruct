@@ -82,14 +82,14 @@ This project employs a specific transfer learning approach:
 ### **Instruction Fine-Tuning**
 The fine-tuning was performed as an instruction following task.
 - **Input/Output Format:** The model was trained to generate the 'response' given the 'instruction' and 'input' fields from the Alpaca dataset, typically concatenated into a single input sequence with special tokens separating the components (e.g., ``"### Instruction:\n[instruction]\n\n### Input:\n[input]\n\n### Response:\n"``).
-- **Dataset**: Stanford Alpaca (52 K instruction–response pairs).
-- **Tokenizer**: Using GPT-2 BPE tokenizer with 50257 vocab size.
+- **Dataset**: Stanford Alpaca ($52$ K instruction–response pairs).
+- **Tokenizer**: Using GPT-2 BPE tokenizer with $50257$ vocab size.
 - **Training Framework**: PyTorch Lightning for flexible multi-GPU support; HuggingFace Datasets and PyTorch Lightning DataModule for data handling. 
 - **Loss Function:** Using the standard language modeling cross-entropy loss, calculated over the predicted tokens. Also, the load balancing loss is incorporated as suggested in [4].
 - **Optimization**: 
-  - AdamW optimizer with `learning_rate` = 6.9e-5, `weight_decay` = 1e-2, and `adam_epsilon` = 1e-8 (also 420 `warmup_steps` of the 3-cycle cosine LR scheduler with hard restart). 
-  - `batch_size` = 2 sequences, `accumulate_gradient_batch_size` = 2 sequences, and `max_length` = 1024 tokens. 
-  - Train for 12 `epochs` with NVIDIA T4 GPU
+  - AdamW optimizer with `learning_rate` = $6.9e-5$, `weight_decay` = $1e-2$, and `adam_epsilon` = $1e-8$ (also $420$ `warmup_steps` of the $3$-cycle cosine LR scheduler with hard restart). 
+  - `batch_size` = $2$ sequences, `accumulate_gradient_batch_size` = $2$ sequences, and `max_length` = $1024$ tokens. 
+  - Train for $12$ `epochs` with NVIDIA T4 GPU
 
 
 ### **Frameworks**
