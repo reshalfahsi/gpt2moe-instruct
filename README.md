@@ -190,9 +190,6 @@ The moon from Earth is approximately 238.9 million miles (384,400 kilometers). I
 I have these ingredients in my fridge: flour, eggs, milk, ham, and spinach. Generate a recipe for a meal I can make.
 ```
 
-### Input:
-
-
 * **Model Output:**
 
 ```
