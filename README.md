@@ -9,6 +9,8 @@
 
 <p align="center"> 
     <img src="https://github.com/reshalfahsi/gpt2moe-instruct/blob/master/assets/gpt2moe-instruct-0.gif" alt="gpt2moe-instruct-0" > 
+    <img src="https://github.com/reshalfahsi/gpt2moe-instruct/blob/master/assets/gpt2moe-instruct-1.gif" alt="gpt2moe-instruct-1" > 
+    <img src="https://github.com/reshalfahsi/gpt2moe-instruct/blob/master/assets/gpt2moe-instruct-2.gif" alt="gpt2moe-instruct-2" > 
     <br /> 
     Some conversations with GPT2MoE. 
 </p>
@@ -175,7 +177,7 @@ I have these ingredients in my fridge: flour, eggs, milk, ham, and spinach. Gene
 ```
 
 ### Input:
-```
+
 
 * **Model Output:**
 
