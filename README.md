@@ -20,9 +20,13 @@
             <img src="https://github.com/reshalfahsi/gpt2moe-instruct/blob/master/assets/gpt2moe-instruct-2.gif" alt="gpt2moe-instruct-2" > 
         </td>
     </tr>
-    <br /> 
-    Some conversations with GPT2MoE. 
+    
 </table>
+
+
+
+Some conversations with GPT2MoE.
+
 
 
 ## **Abstract**
@@ -210,7 +214,7 @@ This project also provides conversational results of the model.
 
 ##### **Telegram Bot**
 
-<p align="center"> <img src="https://github.com/reshalfahsi/gpt2moe-instruct/blob/master/assets/qualitative_telegram.gif" alt="qualitative_telegram" > <br /> Conversing with GPT2MoE via Telegram Bot. It has conversational ability thanks to LangChain [14]. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/gpt2moe-instruct/blob/master/assets/qualitative_telegram.gif" alt="qualitative_telegram" width=300> <br /> Conversing with GPT2MoE via Telegram Bot. It has conversational ability thanks to LangChain [14]. </p>
 
 
 ## **References**
