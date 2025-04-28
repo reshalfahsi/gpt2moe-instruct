@@ -168,7 +168,7 @@ List some interesting things to do in Idaho.
 Some interesting things to do in Idaho include exploring the local area, exploring the local city, playing art exhibitions, exploring the local wildlife, and visiting the local area. You should also research the local landscape, and be sure to research the local area before making a purchase. You should also take photographs, videos, and photographs that showcase the local nature and its unique culture. Finally, you should take a walk in the park and take a nearby cab. Finally, you should have a
 ```
 
-#### **Example 4:**
+##### **Example 4:**
 
 * **Instruction:**
 
@@ -182,7 +182,7 @@ How far is the moon from the Earth?
 The moon from Earth is approximately 238.9 million miles (384,400 kilometers). It is estimated that it would take approximately 238 hours, making it much shorter than the Earth's closest point to the moon. The exact distance of the moon varies depending on the size of the Earth and the type of energy it emits. Additionally, the exact distance of the moon depends on the location of the Earth and the type of energy it produces. Generally, it is considered to be worth the
 ```
 
-#### **Example 5:**
+##### **Example 5:**
 
 * **Instruction:**
 
